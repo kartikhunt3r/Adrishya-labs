@@ -18,7 +18,7 @@ Made for Kali linux, but should work fine with pretty much any linux distro.
 * Vulnerable GraphQL API
 
 
-### Get started 
+## Installation: 
 
 Using any of these apps can be done in 3 quick and simple steps.
 
@@ -34,7 +34,9 @@ cd Adrishya-labs
 sudo apt install docker.io
 ```
 
-#### 3) Start an app on localhost
+## Use:
+
+#### 1) Start an app on localhost
 Now you can start and stop one or more of these apps on your system.
 As an example, to start bWAPP just run this command
 ```
@@ -46,7 +48,7 @@ That means you can just point your browser to http://bwapp and it will be up
 and running.
 
 
-#### 4) Start an app and expose it from machine
+#### 2) Start an app and expose it from machine
 Use the startpublic command to bind the app to your IP
 ```
 ./adrishya_labs.sh startpublic bwapp
@@ -60,7 +62,7 @@ IP needs to be an IP on the machine and port in this example is 8080
 You can only have one app exposed on any given port. If you need to expose more than one app, you need to use different ports.
 
 
-#### 5) Stop any app
+#### 3) Stop any app
 To stop any app use the stop command
 ```
 ./adrishya_labs.sh stop bwapp
@@ -78,7 +80,7 @@ To stop any app use the stop command
 ```
 
 
-### Usage
+## Help
 ```
 Usage: ./adrishya_labs.sh {list|status|info|start|startpublic|stop} [projectname]
 
@@ -104,13 +106,13 @@ Ex.
    Show information about bwapp project
 ```
 
- ### Dockerfiles from
- DVWA                   - Ryan Dewhurst (vulnerables/web-dvwa)  
- Mutillidae II          - OWASP Project (citizenstig/nowasp)  
- bWapp                  - Rory McCune (raesene/bwapp)  
- Webgoat(s)             - OWASP Project  
- Juice Shop             - OWASP Project (bkimminich/juice-shop)  
- Vulnerable Wordpress   - github.com/wpscanteam/VulnerableWordpress  
- Security Ninjas        - OpenDNS Security Ninjas  
- Altoro Mutual          - github.com/hclproducts/altoroj  
- Vulnerable GraphQL API - Carve Systems LLC (carvesystems/vulnerable-graphql-api)
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kartiksavaliya.tech/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/kartikhunt3r)
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/kartikhunt3r)
+
+[![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCqUKMBA2UPqKOYbSa9FnC-Q)
+
