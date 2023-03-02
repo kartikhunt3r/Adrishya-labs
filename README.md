@@ -20,8 +20,6 @@ Made for Kali linux, but should work fine with pretty much any linux distro.
 
 ## Installation: 
 
-Using any of these apps can be done in 3 quick and simple steps.
-
 #### 1) Clone the repo
 Clone this repo, or download it any way you prefer
 ```
@@ -36,7 +34,7 @@ sudo apt install docker.io
 
 ## Use:
 
-#### 1) Start an app on localhost
+#### Start an app on localhost
 Now you can start and stop one or more of these apps on your system.
 As an example, to start bWAPP just run this command
 ```
@@ -48,7 +46,7 @@ That means you can just point your browser to http://bwapp and it will be up
 and running.
 
 
-#### 2) Start an app and expose it from machine
+#### Start an app and expose it from machine
 Use the startpublic command to bind the app to your IP
 ```
 ./adrishya_labs.sh startpublic bwapp
@@ -62,7 +60,7 @@ IP needs to be an IP on the machine and port in this example is 8080
 You can only have one app exposed on any given port. If you need to expose more than one app, you need to use different ports.
 
 
-#### 3) Stop any app
+#### Stop any app
 To stop any app use the stop command
 ```
 ./adrishya_labs.sh stop bwapp
